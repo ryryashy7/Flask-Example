@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movie Reviews</title>
+    </head>
+    <body>
+        <h1>Movie Reviews</h1>
+        <table>
+        <ul>
+            {% for movie in movies %}
+                <td>{{ movie[1] }} - {{ movie[5] }}</td>
+            {% endfor %}
+        </ul>
+        </table>
+    </body>
+</html>
